@@ -1,0 +1,1617 @@
+# Alberto Molina Coballes <alberto@tinaja.es>, 2021. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: octavia-dashboard VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2021-03-11 22:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-09-23 06:01+0000\n"
+"Last-Translator: Morgany Mendes <morgany.mendes@gmail.com>\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(ip)s..."
+msgstr "%(ip)s..."
+
+msgid "A new health monitor is being created."
+msgstr "Um novo monitor de integridade está sendo criado."
+
+msgid "A new l7 policy is being created."
+msgstr "Uma nova política l7 está sendo criada."
+
+msgid "A new listener is being created."
+msgstr "Um novo ouvinte está sendo criado."
+
+msgid "A new load balancer is being created."
+msgstr "Um novo balanceador de carga está sendo criado."
+
+msgid "A new pool is being created."
+msgstr "Um novo pool está sendo criado."
+
+msgid ""
+"A pool represents a group of members over which the load balancing will be "
+"applied."
+msgstr ""
+"Um pool representa um grupo de membros sobre os quais o balanceamento de carga será"
+"aplicado."
+
+msgid "APP_COOKIE: Session persistence based on application cookie."
+msgstr "APP_COOKIE: Persistência da sessão baseada no cookie do aplicativo."
+
+msgid "Action"
+msgstr "Ação"
+
+msgid "Action:"
+msgstr "Ação:"
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Add external member"
+msgstr "Adicionar membro externo"
+
+msgid "Add members to the load balancer pool."
+msgstr "Adicionar membros ao pool do balanceador de carga."
+
+msgid "Add/Remove Members"
+msgstr "Adicionar / Remover Membros"
+
+msgid "Add/Remove Pool Members"
+msgstr "Adicionar / Remover Membros do Pool"
+
+msgid ""
+"Additional headers insertion into HTTP header,\n"
+"  only \"X-Forwarded-For\", \"X-Forwarded-Port\" and \"X-Forwarded-Proto\" "
+"are supported."
+msgstr ""
+"Inserção de cabeçalhos adicionais no cabeçalho HTTP, \ n"
+"apenas \" X-Forwarded-For \ ", \" X-Forwarded-Port \ "e \" X-Forwarded-Proto \ ""
+"são suportados."
+msgstr ""
+"\ n"
+""
+
+msgid "Admin State Up"
+msgstr "Estado Admin. Ligado"
+
+msgid "Algorithm"
+msgstr "Algoritmo"
+
+msgid "Algorithm:"
+msgstr "Algoritmo:"
+
+msgid "Allocated Members"
+msgstr "Membros alocados"
+
+msgid """
+"Uma política L7 é uma coleção de regras L7 associadas a um ouvinte, e"
+"que também pode ter uma associação a um pool de back-end"
+msgstr ""
+""
+""
+
+msgid ""
+"An L7 Rule is a single, simple logical test which returns either true or\n"
+"false."
+msgstr ""
+"Uma regra L7 é um teste lógico único e simples que retorna verdadeiro ou \ n"
+"falso."
+
+msgid ""
+"An alternate IP address used for health monitoring a backend member.\n"
+"  Default is null which monitors the member address."
+msgstr ""
+"Um endereço IP alternativo usado para monitorar a integridade de um membro de back-end. \ N"
+"O padrão é nulo, o que monitora o endereço do membro."
+
+msgid ""
+"An alternate protocol port used for health monitoring a backend member.\n"
+"  Default is null which monitors the member protocol port."
+msgstr ""
+"Uma porta de protocolo alternativa usada para monitorar a integridade de um membro de back-end. \ N"
+"O padrão é nulo, o que monitora a porta do protocolo membro."
+
+msgid "An error occurred. Please try again later."
+msgstr "Ocorreu um erro. Por favor, tente novamente mais tarde."
+
+msgid "Associate"
+msgstr "Associar"
+
+msgid "Associate Floating IP"
+msgstr "Associar IP Flutuante"
+
+msgid "Associate Floating IP Address"
+msgstr "Associar Endereço IP Flutuante"
+
+msgid "Associating floating IP with load balancer."
+msgstr "Associando IP flutuante com balanceador de carga."
+
+msgid "Availability Zone"
+msgstr "Zona de disponibilidade"
+
+msgid "Available Instances"
+msgstr "Instâncias Disponíveis"
+
+msgid "Backend member connection timeout in milliseconds. Default: 5000."
+msgstr ""
+"Tiempo límite de conexión de miembro de respaldo en milisegundos. "
+"Predeterminado: 5000."
+
+msgid "Backend member inactivity timeout in milliseconds. Default: 50000."
+msgstr "Tempo limite de inatividade do membro backend em milissegundos. Padrão: 50000."
+
+msgid "Backup"
+msgstr "Backup"
+
+msgid "Backup:"
+msgstr "Backup:"
+
+msgid "CIDR"
+msgstr "CIDR"
+
+msgid "CONTAINS: String contains."
+msgstr "CONTAINS: Contém string"
+
+msgid ""
+"COOKIE: The rule looks for a cookie named by the key parameter and\n"
+"      compares it against the value parameter in the rule."
+msgstr "COOKIE: A regra procura um cookie nomeado pelo parâmetro chave e \ n"
+"compara com o parâmetro de valor na regra."
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Certificate Name"
+msgstr "Nome do certificado"
+
+msgid "Client Data Timeout"
+msgstr "Tempo Limite de Dados do Cliente"
+
+msgid "Client Data Timeout:"
+msgstr "Tempo Limite de Dados do Cliente:"
+
+msgid "Compare Type"
+msgstr "Tipo de Comparação"
+
+msgid "Compare Type:"
+msgstr "Tipo de Comparação:"
+
+msgid "Confirm Delete Health Monitor"
+msgid_plural "Confirm Delete Health Monitors"
+msgstr[0] "Confirmar Exclusão do Monitor de Integridade"
+msgstr[1] "Confirmar Exclusão do Monitores de Integridade"
+
+msgid "Confirm Delete L7 Policy"
+msgid_plural "Confirm Delete L7 Policies"
+msgstr[0] "Confirmar Exclusão da Política L7"
+msgstr[1] "Confirmar Excluir Políticas L7"
+
+msgid "Confirm Delete L7 Rule"
+msgid_plural "Confirm Delete L7 Rules"
+msgstr[0] "Confirmar Exclusão da Regra L7"
+msgstr[1] "Confirmar Excluir Regras L7"
+
+msgid "Confirm Delete Listener"
+msgid_plural "Confirm Delete Listeners"
+msgstr[0] "Confirmar Exclusão do Listener"
+msgstr[1] "Confirmar Excluir Listeners"
+
+msgid "Confirm Delete Load Balancer"
+msgid_plural "Confirm Delete Load Balancers"
+msgstr[0] "Confirmar Exclusão do Load Balancer"
+msgstr[1] "Confirmar Exclusão de Load Balancers"
+
+msgid "Confirm Delete Member"
+msgid_plural "Confirm Delete Members"
+msgstr[0] "Confirmar Exclusão de Membro"
+msgstr[1] "Confirmar Exclusão de Membros"
+
+msgid "Confirm Delete Pool"
+msgid_plural "Confirm Delete Pools"
+msgstr[0] "Confirmar Exclusão de Pool"
+msgstr[1] "Confirmar Exclusão de Pools"
+
+msgid "Confirm Disassociate Floating IP Address"
+msgstr "Confirmar Desassociar Endereço IP Flutuante"
+
+msgid "Connection Limit"
+msgstr "Limite de Conexões"
+
+msgid "Connection Limit:"
+msgstr "Limite de Conexões:"
+
+msgid "Contains"
+msgstr "Contém"
+
+msgid "Cookie"
+msgstr "Cookie"
+
+msgid "Cookie Name"
+msgstr "Nome do Cookie"
+
+msgid "Create Health Monitor"
+msgstr "Criar Monitor de Integridade"
+
+msgid "Create L7 Policy"
+msgstr "Criar Política L7"
+
+msgid "Create L7 Rule"
+msgstr "Criar Regra L7"
+
+msgid "Create Listener"
+msgstr "Criar Listener"
+
+msgid "Create Load Balancer"
+msgstr "Criar Load Balancer"
+
+msgid "Create Pool"
+msgstr "Criar Pool"
+
+msgid "Created At"
+msgstr "Criado em"
+
+msgid "Default Pool ID"
+msgstr "ID Padrão do Pool"
+
+msgid "Default Pool ID:"
+msgstr "ID Padrão do Pool:"
+
+msgid "Default TLS Container Ref"
+msgstr "Referência de Contêiner TLS Padrão"
+
+msgid "Degraded"
+msgstr "Degradado"
+
+msgid "Delay"
+msgstr "Atraso"
+
+msgid "Delay (sec)"
+msgstr "Atraso (seg)"
+
+msgid "Delay:"
+msgstr "Atraso:"
+
+msgid "Delete Health Monitor"
+msgid_plural "Delete Health Monitors"
+msgstr[0] "Excluir Monitor de Integridade"
+msgstr[1] "Excluir Monitores de Integridade"
+
+msgid "Delete Health Monitors"
+msgstr "Excluir Monitores de Integridade"
+
+msgid "Delete L7 Policies"
+msgstr "Excluir Políticas L7"
+
+msgid "Delete L7 Policy"
+msgid_plural "Delete L7 Policies"
+msgstr[0] "Excluir Política L7"
+msgstr[1] "Excluir Políticas L7"
+
+msgid "Delete L7 Rule"
+msgid_plural "Delete L7 Rules"
+msgstr[0] "Excluir Regra L7"
+msgstr[1] "Excluir Regras L7"
+
+msgid "Delete L7 Rules"
+msgstr "Excluir regras L7"
+
+msgid "Delete Listener"
+msgid_plural "Delete Listeners"
+msgstr[0] "Excluir Listener"
+msgstr[1] "Excluir Listeners"
+
+msgid "Delete Listeners"
+msgstr "Excluir Listeners"
+
+msgid "Delete Load Balancer"
+msgid_plural "Delete Load Balancers"
+msgstr[0] "Excluir Load Balancer"
+msgstr[1] "Excluir Load Balancers"
+
+msgid "Delete Load Balancers"
+msgstr "Excluir Load Balancers"
+
+msgid "Delete Member"
+msgid_plural "Delete Members"
+msgstr[0] "Excluir Membro"
+msgstr[1] "Excluir Membros"
+
+msgid "Delete Members"
+msgstr "Excluir Membros"
+
+msgid "Delete Pool"
+msgid_plural "Delete Pools"
+msgstr[0] "Excluir Pool"
+msgstr[1] "Excluir Pools"
+
+msgid "Delete Pools"
+msgstr "Excluir Pools"
+
+#, python-format
+msgid "Deleted Health Monitor: %s."
+msgid_plural "Deleted Health Monitors: %s."
+msgstr[0] "Monitor de Integridade eliminado: %s"
+msgstr[1] "Monitores de Integridade Eliminados: %s"
+
+#, python-format
+msgid "Deleted L7 Policy: %s."
+msgid_plural "Deleted L7 Policies: %s."
+msgstr[0] "Política L7 Excluída: %s."
+msgstr[1] "Políticas L7 Excluída: %s."
+
+#, python-format
+msgid "Deleted L7 Rule: %s."
+msgid_plural "Deleted L7 Rules: %s."
+msgstr[0] "Regra L7 Excluída: %s."
+msgstr[1] "Regras L7 Excluídas: %s."
+
+#, python-format
+msgid "Deleted Listener: %s."
+msgid_plural "Deleted Listeners: %s."
+msgstr[0] "Ouvinte Excluído: %s."
+msgstr[1] "Ouvinte Excluídos: %s."
+
+#, python-format
+msgid "Deleted Load Balancer: %s."
+msgid_plural "Deleted Load Balancers: %s."
+msgstr[0] "Load Balancer Excluído: %s."
+msgstr[1] "Load Balancer Excluídos: %s."
+
+#, python-format
+msgid "Deleted Member: %s."
+msgid_plural "Deleted Members: %s."
+msgstr[0] "Membro Excluído: %s."
+msgstr[1] "Membro Excluídos: %s."
+
+#, python-format
+msgid "Deleted Pool: %s."
+msgid_plural "Deleted Pools: %s."
+msgstr[0] "Pool Excluído: %s."
+msgstr[1] "Pools Excluídos: %s."
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "Disassociate"
+msgstr "Desassociar"
+
+msgid "Disassociate Floating IP"
+msgstr "Desassociar IP Flutuante"
+
+#, python-format
+msgid "Disassociated floating IP address from load balancer: %s."
+msgstr "Endereço IP Flutuante Desassociado do Load Balancer: %s."
+
+msgid "ENDS_WITH: String ends with."
+msgstr "ENDS_WITH: String termina com."
+
+msgid "EQUAL_TO: String is equal to."
+msgstr "EQUAL_TO: String é igual a."
+
+msgid ""
+"Each port that listens for traffic on a particular load balancer is "
+"configured separately and\n"
+"  tied to the load balancer. Multiple listeners can be associated with the "
+"same load balancer but\n"
+"  each must use a unique port."
+msgstr ""
+"Cada porta que escuta o tráfego em um balanceador de carga específico é"
+"configurado separadamente e \ n"
+"vinculado ao balanceador de carga. Vários ouvintes podem ser associados ao"
+"mesmo balanceador de carga, mas \ n"
+"cada um deve usar uma porta exclusiva."
+
+msgid "Edit Health Monitor"
+msgstr "Editar Monitor de Integridade"
+
+msgid "Edit L7 Policy"
+msgstr "Editar Política L7"
+
+msgid "Edit L7 Rule"
+msgstr "Editar Regra L7"
+
+msgid "Edit Listener"
+msgstr "Editar Listener"
+
+msgid "Edit Load Balancer"
+msgstr "Editar Load Balancer"
+
+msgid "Edit Member"
+msgstr "Editar Membro"
+
+msgid "Edit Pool"
+msgstr "Editar Pool"
+
+msgid "Ends With"
+msgstr "Termina com"
+
+msgid "Equal To"
+msgstr "Igual à"
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "Expected Codes"
+msgstr "Códigos Esperados"
+
+msgid "Expected Codes:"
+msgstr "Códigos Esperados:"
+
+msgid "Expiration Date"
+msgstr "Data de Expiração"
+
+msgid ""
+"FILE_TYPE: The rule compares the last portion of the URI against\n"
+"      the value parameter in the rule. (eg. \"txt\", \"jpg\", etc.)"
+msgstr ""
+"FILE_TYPE: A regra compara a última parte do URI com \ n"
+"o parâmetro de valor na regra. (por exemplo, \" txt \ ", \" jpg \ ", etc.)"
+msgstr ""
+
+msgid "File Type"
+msgstr "Tipo de Arquivo"
+
+msgid "Flavor"
+msgstr "Flavor"
+
+msgid "Flavor Description"
+msgstr "Descrição do Flavor"
+
+msgid "Flavor ID"
+msgstr "ID do Flavor"
+
+msgid "Floating IP"
+msgstr "IP Flutuante"
+
+msgid "Floating IP address or pool"
+msgstr "Endereço IP flutuante ou pool"
+
+msgid "Floating IP addresses"
+msgstr "Endereços IP flutuantes"
+
+msgid "Floating IP pools"
+msgstr "Pools de IP flutuantes"
+
+msgid "Frontend client inactivity timeout in milliseconds. Default: 50000."
+msgstr "Tempo limite de inatividade do cliente front-end em milissegundos. Padrão: 50000."
+
+msgid ""
+"HEADER: The rule looks for a header defined in the key parameter\n"
+"      and compares it against the value parameter in the rule."
+msgstr ""
+"CABEÇALHO: a regra procura um cabeçalho definido no parâmetro-chave \ n"
+"e o compara com o parâmetro de valor na regra."
+
+msgid ""
+"HOST_NAME: The rule does a comparison between the HTTP/1.1\n"
+"      hostname in the request against the value parameter in the rule."
+msgstr ""
+"HOST_NAME: A regra faz uma comparação entre HTTP / 1.1 \ n"
+"nome do host na solicitação em relação ao parâmetro de valor na regra."
+
+msgid "HTTP Method"
+msgstr "Método HTTP"
+
+msgid "HTTP Method:"
+msgstr "Método HTTP:"
+
+msgid "HTTP_COOKIE: Session persistence based on http cookie."
+msgstr "HTTP_COOKIE: Persistência da sessão baseada no cookie http."
+
+msgid "Header"
+msgstr "Cabeçalho"
+
+msgid "Health Monitor"
+msgstr "Monitor de Integridade"
+
+msgid "Health Monitor ID"
+msgstr "ID do Monitor de Integridade"
+
+msgid "Health Monitors"
+msgstr "Monitores de Integridade"
+
+msgid "Host Name"
+msgstr "Nome de Host"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IP Address"
+msgstr "Endereço IP"
+
+#, python-format
+msgid "IP Addresses (%(count)s)"
+msgstr "Endereços IP (%(count)s)"
+
+msgid "IP address"
+msgstr "Endereços IP"
+
+msgid "IP address:"
+msgstr "Endereço IP:"
+
+msgid ""
+"If an IP address is provided it must be a well-formed IPv4 or IPv6 address. "
+"The system will\n"
+"  attempt to assign the provided IP address to the load balancer. If an IP "
+"address is not provided\n"
+"  then one will be allocated for you."
+msgstr ""
+"Se um endereço IP for fornecido, ele deve ser um endereço IPv4 ou IPv6 bem formado."
+"O sistema irá \ n"
+"tentativa de atribuir o endereço IP fornecido ao balanceador de carga. Se for um IP"
+"endereço não fornecido \ n"
+"então um será alocado para você."
+
+msgid ""
+"If the listener uses the TERMINATED_HTTPS protocol, then one or more SSL "
+"certificates must\n"
+"  be selected. The first certificate will be the default."
+msgstr ""
+"Se o ouvinte usa o protocolo TERMINATED_HTTPS, então um ou mais SSL"
+"certificados devem \ n"
+"seja selecionado. O primeiro certificado será o padrão."
+
+msgid "Inactive"
+msgstr "Inativo"
+
+msgid "Insert Headers"
+msgstr "Inserir Cabeçalhos"
+
+msgid "Insert Headers:"
+msgstr "Inserir Cabeçalhos:"
+
+msgid "Invert"
+msgstr "Inverter"
+
+msgid "Invert:"
+msgstr "Inverter:"
+
+msgid ""
+"Is the member a backup? Backup members only receive traffic when all\n"
+"  non-backup members are down."
+msgstr ""
+"O membro é um backup? Os membros backup só recebem tráfego quando todos \ n"
+"membros não reserva estão fora do ar."
+
+msgid "Key"
+msgstr "Chave"
+
+msgid "Key Manager API Guide: Creating a Certificate Container"
+msgstr "Guia da API do Key Manager: Criando um contêiner de certificado"
+
+msgid "Key Manager Service Command-Line Client"
+msgstr "Cliente de linha de comando do serviço Key Manager"
+
+msgid "Key:"
+msgstr "Chave:"
+
+msgid "L7 Policies"
+msgstr "Políticas L7"
+
+msgid "L7 Policy"
+msgstr "Política L7"
+
+msgid "L7 Policy Details"
+msgstr "Detalhes da Política L7"
+
+msgid "L7 Rule"
+msgstr "Regra L7"
+
+msgid "L7 Rule Details"
+msgstr "Detalhes da Regra L7"
+
+msgid "L7 Rules"
+msgstr "Regras L7"
+
+msgid ""
+"LEAST_CONNECTIONS: Allocates requests to the instance with the least number "
+"of active\n"
+"      connections."
+msgstr ""
+"LEAST_CONNECTIONS: aloca solicitações à instância com o menor número"
+"de ativo \ n"
+"conexões."
+
+msgid "Least Connections"
+msgstr "Conexões Mínimas"
+
+msgid "Listener"
+msgstr "Listener"
+
+msgid "Listener Details"
+msgstr "Detalhes do Listener"
+
+msgid "Listener ID"
+msgstr "ID do Listener"
+
+msgid "Listeners"
+msgstr "Listeners"
+
+msgid "Load Balancer"
+msgstr "Load Balancer"
+
+msgid "Load Balancer Details"
+msgstr "Detalhes do Load Balancer"
+
+msgid "Load Balancers"
+msgstr "Load Balancers"
+
+msgid "Loading"
+msgstr "Carregando"
+
+msgid "Max Retries"
+msgstr "Máximo de Tentativas"
+
+msgid "Max Retries Down"
+msgstr "Máximo de Tentativas Caído"
+
+msgid "Max Retries Down:"
+msgstr "Máximo de Tentativas Caído:"
+
+msgid "Max Retries:"
+msgstr "Máximo de Tentativas"
+
+msgid "Member"
+msgstr "Membro"
+
+msgid "Member Connect Timeout"
+msgstr "Tempo Limite de Conexão de Membro"
+
+msgid "Member Connect Timeout:"
+msgstr "Tempo Limite de Conexão de Membro:"
+
+msgid "Member Data Timeout"
+msgstr "Tempo Limite de Dados do Membro"
+
+msgid "Member Data Timeout:"
+msgstr "Tempo Limite de Dados do Membro:"
+
+msgid "Members"
+msgstr "Membros"
+
+msgid ""
+"Members are the actual IP addresses that will receive traffic from the load "
+"balancer. Each\n"
+"  member must have a unique combination of IP address and port."
+msgstr ""
+"Membros são os endereços IP reais que receberão tráfego da carga"
+"balanceador. Cada \ n"
+"membro deve ter uma combinação única de endereço IP e porta."
+
+msgid "Monitor Address"
+msgstr "Endereço do Monitor"
+
+msgid "Monitor Address:"
+msgstr "Endereço do Monitor:"
+
+msgid "Monitor Details"
+msgstr "Detalhes do monitor"
+
+msgid "Monitor Port"
+msgstr "Porta do Monitor"
+
+msgid "Monitor Port:"
+msgstr "Porta do Monitor:"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Network"
+msgstr "Rede"
+
+msgid "Network ID"
+msgstr "ID da rede"
+
+msgid "No"
+msgstr "Não"
+
+msgid "No Monitor"
+msgstr "Sem Monitor"
+
+msgid "No available certificates"
+msgstr "Nenhum certificado disponível"
+
+msgid "No available instances"
+msgstr "Nenhuma instância disponível"
+
+msgid "No items to display."
+msgstr "Nenhum item para exibir."
+
+msgid "No matching options"
+msgstr "Sem opções correspondentes"
+
+msgid "No members have been allocated"
+msgstr "Nenhum membro foi alocado"
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "Offline"
+msgstr "Desconectado"
+
+msgid "Online"
+msgstr "Conectado"
+
+msgid "Operating Status"
+msgstr "Estado operacional"
+
+msgid "Overview"
+msgstr "Visão geral"
+
+msgid ""
+"PATH: The rule compares the path portion of the HTTP URI against\n"
+"      the value parameter in the rule."
+msgstr ""
+"PATH: A regra compara a parte do caminho do URI HTTP com \ n"
+"o parâmetro de valor na regra."
+
+msgid "Path"
+msgstr "Caminho (Path)"
+
+msgid "Pending Create"
+msgstr "Criação Pendente"
+
+msgid "Pending Delete"
+msgstr "Exclusão Pendente"
+
+msgid "Pending Update"
+msgstr "Atualização Pendente"
+
+msgid "Please Wait"
+msgstr "Por Favor, Aguarde"
+
+msgid "Pool"
+msgstr "Pool"
+
+msgid "Pool Details"
+msgstr "Detalhes do Pool"
+
+msgid "Pool Members"
+msgstr "Membros do Pool"
+
+msgid "Pool member has been updated."
+msgstr "Membro do pool foi atualizado."
+
+msgid "Pools"
+msgstr "Pools"
+
+msgid "Port"
+msgstr "Porta"
+
+msgid "Port ID"
+msgstr "ID da Porta"
+
+msgid "Port:"
+msgstr "Porta:"
+
+msgid "Position"
+msgstr "Posição"
+
+msgid "Position:"
+msgstr "Posição:"
+
+msgid "Project"
+msgstr "Projeto"
+
+msgid "Project ID"
+msgstr "ID de Projeto"
+
+msgid "Protocol"
+msgstr "Protocolo"
+
+msgid "Protocol Port"
+msgstr "Porto do Protocolo"
+
+msgid "Protocol:"
+msgstr "Protocolo:"
+###
+msgid "Provide the details for the health monitor."
+msgstr "Proporcionar los detalles del monitor de estado."
+
+msgid "Provide the details for the l7 policy."
+msgstr "Proporcionar los detalles de la política l7."
+
+msgid "Provide the details for the l7 rule."
+msgstr "Proporcionar los detalles de la regla l7."
+
+msgid "Provide the details for the listener."
+msgstr "Proporcionar los detalles del oyente."
+
+msgid "Provide the details for the load balancer."
+msgstr "Proporcionar los detalles del balanceador de carga."
+
+msgid "Provide the details for the member."
+msgstr "Proporcionar los detalles del miembro."
+
+msgid "Provide the details for the pool."
+msgstr "Proporcionar los detalles del pool."
+
+msgid "Provider"
+msgstr "Proveedor"
+
+msgid "Provisioning Status"
+msgstr "Estado de aprovisionamiento"
+
+msgid ""
+"REDIRECT_TO_POOL: The request is forwarded to the back-end pool associated "
+"with the L7 policy."
+msgstr ""
+"REDIRECT_TO_POOL: Se re-envía la solicitud al pool de \"back end\" asociado "
+"con la política L7."
+
+msgid ""
+"REDIRECT_TO_URL: The request is sent an HTTP redirect to the URL defined in "
+"the redirect_url parameter."
+msgstr ""
+"REDIRECT_TO_URL: Se envía la solicitud a la URL definida en el parámetro "
+"redirect_url mediante una redirección HTTP."
+
+msgid "REGEX: Perl type regular expression matching."
+msgstr "REGEX: Expresión regular tipo Perl con la que coincidir."
+
+msgid ""
+"REJECT: The request is denied with an appropriate response code, and not "
+"forwarded on to any back-end pool."
+msgstr ""
+"REJECT: Se deniega la solicitud con el código de respuesta apropiado, y no "
+"se re-envía a ningún pool de \"back end\"."
+
+msgid "ROUND_ROBIN: Rotates requests evenly between multiple instances."
+msgstr ""
+"ROUND_ROBIN: Rota las solicitudes equitativamente entre múltiples instancias."
+
+msgid "Redirect Pool ID"
+msgstr "ID pool a redirigir"
+
+msgid "Redirect Pool ID:"
+msgstr "ID pool a redirigir:"
+
+msgid "Redirect URL"
+msgstr "URL a redirigir"
+
+msgid "Redirect URL:"
+msgstr "URL a redirigir:"
+
+msgid "Redirect to Pool"
+msgstr "Redirigir a pool"
+
+msgid "Redirect to URL"
+msgstr "Redirigir a URL"
+
+msgid "Regex"
+msgstr "Expresión regular"
+
+msgid "Reject"
+msgstr "Rechazar"
+
+msgid "Remove"
+msgstr "Eliminar"
+
+msgid ""
+"Requests matching this policy will be redirected to the pool with this ID. "
+"Only valid if action is REDIRECT_TO_POOL."
+msgstr ""
+"Las solicitudes que cumplan esta política se redirigirán al pool con esta "
+"ID. La única acción válida es REDIRECT_TO_POOL."
+
+msgid ""
+"Requests matching this policy will be redirected to this URL. Only valid if "
+"action is REDIRECT_TO_URL."
+msgstr ""
+"Las solicitudes que cumplan esta política serán redirigidas a esta URL. La "
+"única acción válida es REDIRECT_TO_URL."
+
+msgid "Round Robin"
+msgstr "Round Robin"
+
+msgid "Rules"
+msgstr "Reglas"
+
+msgid "SNI Container Refs"
+msgstr "Refs contendores SNI"
+
+msgid ""
+"SOURCE_IP: Requests from a unique source IP address are consistently "
+"directed to the same instance."
+msgstr ""
+"SOURCE_IP: Las solicitudes provenientes de una misma dirección IP se envían "
+"consistentemente a la misma instancia."
+
+msgid "SOURCE_IP: Session persistence based on source ip."
+msgstr "SOURCE_IP: Persistencia de sesión basada en la IP origen."
+
+msgid "SSL Certificates"
+msgstr "Certificados SSL"
+
+msgid "STARTS_WITH: String starts with."
+msgstr "STARTS_WITH: La cadena comienza por"
+
+msgid ""
+"Select a floating IP address to associate with the load balancer or a "
+"floating IP pool in which to allocate a new floating IP address."
+msgstr ""
+"Seleccioanr una dirección IP para asociar con el balanceador de carga o un "
+"pool de direcciones IPs flotantes en la que se pueda asignar una nueva "
+"dirección IP flotante,"
+
+msgid "Select certificates from the available certificates below"
+msgstr "Seleccionar certificados de los certificados disponibles abajo"
+
+msgid "Select one or more SSL certificates for the listener."
+msgstr "Selecciona uno o más certificados para el oyente."
+
+msgid "Session Persistence"
+msgstr "Persistencia de sesión"
+
+msgid "Session Persistence:"
+msgstr "Persistencia de sesión"
+
+msgid "Source IP"
+msgstr "IP  origen"
+
+msgid "Starts With"
+msgstr "Comienza con"
+
+msgid "Subnet"
+msgstr "Subred"
+
+msgid "Subnet ID"
+msgstr "ID de subred"
+
+msgid "Subnet:"
+msgstr "Subred:"
+
+msgid "TCP Inspect Timeout"
+msgstr "Tiempo límite de TCP inspect"
+
+msgid "TCP Inspect Timeout:"
+msgstr "Tiempo límite de TCP Inspect:"
+###
+msgid ""
+"The Available Instances table contains existing compute instances that can "
+"be added as members\n"
+"  of the pool. Use the \"Add external member\" button to add a member not "
+"found in the Available\n"
+"  Instances table."
+msgstr ""
+"La tabla de instancias disponibles contiene las instancas de computación "
+"existentes que pueden añadirse como\n"
+" miembros del pool. Utilice el botón \"Añadir miembro exterior\" para añadir "
+"un miembro que no se encuentre\n"
+" en la tabla de instancias disponibles."
+
+msgid "The HTTP method used to perform the health check."
+msgstr "Método HTTP utilizar para realizar el chequeo de estado."
+
+msgid "The ID of the pool used by the listener if no L7 policies match."
+msgstr ""
+"El ID del pool utilizado por el oyente si no coincide ninguna política L7."
+
+msgid "The IP address is not valid."
+msgstr "La dirección IP no es válida."
+
+msgid ""
+"The IP address of the member to receive traffic from the load balancer. Must "
+"be a well-formed\n"
+"  IPv4 or IPv6 address."
+msgstr ""
+"La dirección IP a la que el miembro recibe tráfico del balanceador de carga. "
+"Debe ser una dirección\n"
+" IPv4 o IPv6 bien formada."
+
+msgid ""
+"The L7 policy action. One of REJECT, REDIRECT_TO_URL, or REDIRECT_TO_POOL."
+msgstr ""
+"La acción de política L7: Una de REJECT, REDIRECT_TO_URL, o REDIRECT_TO_POOL."
+
+msgid "The L7 rule type. One of COOKIE, FILE_TYPE, HEADER, HOST_NAME, or PATH."
+msgstr ""
+"El tipo de regla L7: Una de COOKIE, FILE_TYPE, HEADER, HOST_NAME, o PATH."
+
+msgid "The URL path is not valid."
+msgstr "La ruta URL no es válida."
+
+msgid ""
+"The comparison type for the L7 rule. One of CONTAINS, ENDS_WITH,\n"
+"  EQUAL_TO, REGEX, or STARTS_WITH."
+msgstr ""
+"El tipo de comparación para la regla L7. Una de CONTAINS, ENDS_WITH,\n"
+"  EQUAL_TO, REGEX, o STARTS_WITH."
+
+msgid "The connection limit must be a number greater than or equal to -1."
+msgstr "El límite de conexiones debe ser un número mayor o igual a -1."
+
+msgid ""
+"The expected HTTP status codes to get from a successful health check. Must "
+"be a single number,\n"
+"  a comma separated list of numbers, or a range (two numbers separated by a "
+"hyphen)."
+msgstr ""
+"Los códigos de estado que se espera obtener de un chequeo de estado "
+"satisfactorio. Debe ser un único\n"
+" número, una lista de números separados por comas, o un rango (dos números "
+"separados por un guión)."
+
+msgid "The expected status code is not valid."
+msgstr "El código de estado esperado no es váido."
+
+msgid "The health check interval must be greater than or equal to the timeout."
+msgstr ""
+"El intervalo de chequeo de estado debe ser mayor o igual que el tiempo "
+"límite."
+
+msgid "The health monitor has been updated."
+msgstr "El monitor de estado se ha actualizado."
+
+msgid ""
+"The health monitor is used to determine the health of your pool members. "
+"Health checks\n"
+"  routinely run against each member within the pool and the result of the "
+"health check is used\n"
+"  to determine if the member receives new connections. Each pool can only "
+"have one health\n"
+"  monitor."
+msgstr ""
+"Se utiliza el monitor de estado para determinar el estado de los miembros "
+"del pool. Los chequeos\n"
+" de estado se ejecutan rutinariamente contra cada miembro del pool y el "
+"resultado del mismo se\n"
+" utiliza para determinar si el miembro recibe nuevas conexiones. Cada pool "
+"puede tener solo un monitor\n"
+" de estado."
+
+msgid ""
+"The interval between health checks. Must be greater than or equal to the "
+"timeout."
+msgstr ""
+"El intervalo entre los chequeos de estado. Debe ser mayor o igual que el "
+"tiempo límite."
+
+msgid ""
+"The key to use for the comparison. For example, the name of the cookie\n"
+"  to evaluate."
+msgstr ""
+"La clave a utilizar para comparar. Por ejemplo, el nombre de la cookie\n"
+" a evaluar."
+
+msgid "The l7policy has been updated."
+msgstr "Se ha actualizado la política L7."
+
+msgid "The l7rule has been updated."
+msgstr "Se ha actualizado la regla L7."
+
+msgid "The listener has been updated."
+msgstr "Se ha actualizado el oyente."
+
+msgid ""
+"The load balancer algorithm that distributes traffic to the pool members."
+msgstr ""
+"El algoritmo del balanceador de carga que distribuye el tráfico entre los "
+"mienbros del pool."
+
+msgid "The load balancer has been updated."
+msgstr "Se ha actualizado el balanceador de carga."
+
+msgid ""
+"The load balancer occupies a neutron network port and has an IP address "
+"assigned from a subnet."
+msgstr ""
+"El balanceador de carga ocupa un puerto de red de neutron y tiene asignada "
+"una dirección IP de una subred."
+
+msgid "The max retry count must be a number between 1 and 10."
+msgstr "El contador de reintentos máximos debe ser un número entre 1 y 10."
+
+msgid "The max retry down count must be a number between 1 and 10."
+msgstr "El número de reintentos máximos caído debe ser un número entre 1 y 10."
+
+msgid ""
+"The maximum number of connections permitted for this listener.\n"
+"  Default value is -1 which represents infinite connections."
+msgstr ""
+"El número máximo de conexiones permitidas para este oyente.\n"
+" El valor predeterminado es -1 que representa infinitas conexiones."
+
+msgid "The monitor address must be a valid IP address."
+msgstr "La dirección del monitor debe tener una dirección IP válida."
+
+msgid "The monitor port must be a number between 1 and 65535."
+msgstr "El puerto del monitor debe ser un número entre 1 y 65535."
+
+msgid "The network on which to allocate the load balancer's IP address."
+msgstr "Red en la que asignar la dirección IP del balanceador de carga."
+
+msgid "The network which contains the IP address of the member."
+msgstr "La red que contiene la dirección IP del miembro."
+
+msgid ""
+"The number of allowed connection failures before marking the member as "
+"error. Must be a\n"
+"  number from 1 to 10. The default is 3."
+msgstr ""
+"El número de fallos en la conexión permitidos antes de marcar un miembro "
+"como erro. Dede ser un\n"
+" número entre 1 y 10. El predeterminado es 3."
+
+msgid ""
+"The number of allowed connection failures before marking the member as "
+"inactive. Must be a\n"
+"  number from 1 to 10."
+msgstr ""
+"El número de fallos en la conexión permitidos antes de marcar un miembro "
+"como inactivo. Dede ser un\n"
+" número entre 1 y 10."
+
+msgid "The pool has been updated."
+msgstr "Se ha actualizado el pool."
+
+msgid "The pool members have been updated."
+msgstr "Se han actualizado los miembros del pool."
+
+msgid "The port must be a number between 1 and 65535."
+msgstr "El puerto debe ser un número entre 1 y 65535."
+
+msgid ""
+"The port must be unique among all listeners attached to this load balancer."
+msgstr ""
+"El puerto debe ser único entre todos los oyentes asociados a este "
+"balanceador de carga."
+
+msgid ""
+"The port on which the front end listens. Must be an integer from 1 to 65535."
+msgstr ""
+"El puerto en el que el frontal escucha. Debe ser un entero entre 1 y 65535."
+
+msgid ""
+"The port on which the member listens for traffic. Must be a number from 1 to "
+"65535."
+msgstr ""
+"El puerto en el que el miembro escucha el tráfico. Debe ser un númerto entre "
+"1 y 65535."
+
+msgid "The position must be a number between 1 and 2147483647."
+msgstr "La posición debe ser un número entre 1 y 2147483647."
+
+msgid "The position of this policy on the listener. Positions start at 1."
+msgstr "Posición de esta política en el oyente. Las posiciones comienzan en 1."
+
+msgid ""
+"The protocol for which the front end listens. The TERMINATED_HTTPS protocol "
+"is only available if\n"
+"  the key-manager service is enabled and you have authority to list "
+"certificate containers and\n"
+"  secrets."
+msgstr ""
+"El protocolo que escucha el frontal. El protocolo TERMINATED_HTTP está "
+"disponible sólo\n"
+" si el servicio de gestión de claves está habilitado y tiene autoridad para "
+"listas los contenedores\n"
+" de certificados y secretos."
+
+msgid ""
+"The protocol for which this pool and its members listen. A valid value is "
+"HTTP, HTTPS, PROXY, PROXYV2, TCP or UDP."
+msgstr ""
+"El protocolo que escuchan este pool y sus miembros. Un valor vális es HTTP, "
+"HTTPS, PROXY, PROXYV2, TCP o UDP."
+
+msgid "The redirect url must be a valid http or https url."
+msgstr "La url a dirigir debe ser una url http o https válida."
+
+msgid ""
+"The target of the health check HTTP request to the member. Must be a valid "
+"URL path."
+msgstr ""
+"El destino de la solicitud HTTP de chequeo de estado del miembro. Debe ser "
+"una ruta URL válida."
+
+msgid ""
+"The time after which a health check times out. Must be a number greater than "
+"or equal to 0\n"
+"  and less than or equal to the interval."
+msgstr ""
+"Tiempo a partir del cual un chequeo de esta da tiempo excedido. Debe ser un "
+"número mayor o igual que 0\n"
+" y menor o igual que el intervalo."
+
+msgid "The timeout must be a number between 0 and 31536000000."
+msgstr "El tiempo límite debe ser un número entre 0 and 31536000000."
+
+msgid "The timeout must be a number greater than or equal to 0."
+msgstr "El tiempo límite debe ser un número igual o mayor que 0."
+
+msgid ""
+"The type of session persistence for distributing traffic to the pool members."
+msgstr ""
+"El tipo de persistencia de sesión para distribuir el tráfico a los miembros "
+"del pool."
+
+msgid ""
+"The value to use for the comparison. For example, the file type to compare."
+msgstr ""
+"El valor a utilizar para comparar. Por ejemplo, el tipo de fichero a "
+"comparar."
+
+msgid "The weight must be a number between 1 and 256."
+msgstr "El peso debe ser un número entre 1 y 256."
+
+msgid ""
+"The weight of a member determines the portion of requests or connections it "
+"services compared\n"
+"  to the other members of the pool. A higher weight means it will receive "
+"more traffic. Must be\n"
+"  a number from 1 to 256."
+msgstr ""
+"El peso de un miembro determina la porción de solicitudes o conexiones que "
+"recibe comparadas\n"
+" con otros miembros del pool. Un peso mayor significa que recibirá más "
+"tráfico. Debe ser\n"
+" un número entre 1 y 256."
+
+msgid ""
+"Time, in milliseconds, to wait for additional TCP packets for content\n"
+"  inspection. Default: 0."
+msgstr ""
+"Tiempo, en milisegundos, a esperar paquetes TCP adicionales para "
+"inspeccionar\n"
+" contenido. Predeterminado: 0."
+
+msgid "Timeout"
+msgstr "Tiempo límite"
+
+msgid "Timeout (sec)"
+msgstr "Tiempo límite (seg)"
+
+msgid "Timeout:"
+msgstr "Tiempo límite:"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Type:"
+msgstr "Tipo:"
+
+msgid "URL Path"
+msgstr "Ruta URL"
+
+msgid "URL Path:"
+msgstr "Ruta URL:"
+
+msgid "Unable to create flavor profile."
+msgstr "No ha sido posible crear el perfil del sabor."
+
+msgid "Unable to create flavor."
+msgstr "No ha sido posible crear el sabor."
+
+msgid "Unable to create health monitor."
+msgstr "No ha sido posible crear el monitor de estado."
+
+msgid "Unable to create l7 policy."
+msgstr "No ha sido posible crear la política l7."
+
+msgid "Unable to create l7 rule."
+msgstr "No ha sido posible crear la regla l7"
+
+msgid "Unable to create listener."
+msgstr "No ha sido posible crear el oyente."
+
+msgid "Unable to create load balancer."
+msgstr "No se ha posido crear el balanceador de carga."
+
+msgid "Unable to create pool."
+msgstr "No ha sido posible crear el pool."
+
+#, python-format
+msgid "Unable to delete Health Monitor: %s."
+msgid_plural "Unable to delete Health Monitors: %s."
+msgstr[0] "No ha sido posible eliminar monitor de estado: %s"
+msgstr[1] "No ha sido posible eliminar monitores de estado: %s"
+
+#, python-format
+msgid "Unable to delete L7 Policy: %s."
+msgid_plural "Unable to delete L7 Policies: %s."
+msgstr[0] "No se ha podido eliminar política L7: %s."
+msgstr[1] "No se han podido eliminar políticas L7: %s."
+
+#, python-format
+msgid "Unable to delete L7 Rule: %s."
+msgid_plural "Unable to delete L7 Rules: %s."
+msgstr[0] "No se ha podido eliminar la regla L7: %s."
+msgstr[1] "No se han podido eliminar las reglas L7: %s."
+
+#, python-format
+msgid "Unable to delete Listener: %s."
+msgid_plural "Unable to delete Listeners: %s."
+msgstr[0] "No ha sido posible eliminar el oyente: %s."
+msgstr[1] "No ha sido posible eliminar los oyentes: %s."
+
+#, python-format
+msgid "Unable to delete Load Balancer: %s."
+msgid_plural "Unable to delete Load Balancers: %s."
+msgstr[0] "No ha sido posible eliminar el balanceador de carga: %s."
+msgstr[1] "No ha sido posible eliminar los balanceadores de carga: %s."
+
+#, python-format
+msgid "Unable to delete Member: %s."
+msgid_plural "Unable to delete Members: %s."
+msgstr[0] "No se ha podido eliminar miembro: %s."
+msgstr[1] "No se han podido eliminar miembros: %s."
+
+#, python-format
+msgid "Unable to delete Pool: %s."
+msgid_plural "Unable to delete Pools: %s."
+msgstr[0] "No se ha podido eliminar el pool: %s."
+msgstr[1] "No se han podido eliminar los pools: %s."
+
+msgid "Unable to delete flavor profile."
+msgstr "No ha sido posible eliminar el perfil del sabor."
+
+msgid "Unable to delete flavor."
+msgstr "No ha sido posible eliminar el sabor."
+
+msgid "Unable to delete health monitor."
+msgstr "No ha sido posible eliminar el monitor de estado."
+
+msgid "Unable to delete l7 policy."
+msgstr "No ha sido posible eliminar la política l7."
+
+msgid "Unable to delete l7 rule."
+msgstr "No ha sido posible eliminar la regla l7."
+
+msgid "Unable to delete listener."
+msgstr "No ha sido posible eliminar el oyente."
+
+msgid "Unable to delete load balancer."
+msgstr "No ha sido posible eliminar el balanceador de carga."
+
+msgid "Unable to delete member."
+msgstr "No ha sido posible eliminar el miembro."
+
+msgid "Unable to delete pool."
+msgstr "No ha sido posible eliminar el pool."
+
+#, python-format
+msgid "Unable to disassociate floating IP address from load balancer: %s."
+msgstr ""
+"No se ha podiso desasociar la dirección IP flotante del balanceador de "
+"carga: %s."
+
+msgid "Unable to retrieve SSL certificates."
+msgstr "No ha sido posible obtener los certificados SSL."
+
+msgid "Unable to retrieve availability zones."
+msgstr "No ha sido posible obtener las zonas de disponibilidad."
+
+msgid "Unable to retrieve flavor profile."
+msgstr "No ha sido posible obtener el perfil del sabor."
+
+msgid "Unable to retrieve flavor profiles."
+msgstr "No ha sido posible obtener los perfiles de los sabores."
+
+msgid "Unable to retrieve flavor."
+msgstr "No ha sido posible obtener el sabor."
+
+msgid "Unable to retrieve flavors."
+msgstr "No ha sido posible obtener los sabores."
+
+msgid "Unable to retrieve health monitor."
+msgstr "No ha sido posible obtener el monitor de estado."
+
+msgid "Unable to retrieve health monitors."
+msgstr "No ha sido posible obtener los monitores de estado."
+
+msgid "Unable to retrieve l7 policies."
+msgstr "No ha sido posible obtener las políticas l7."
+
+msgid "Unable to retrieve l7 policy."
+msgstr "No ha sido posible obtener la política l7."
+
+msgid "Unable to retrieve l7 rule."
+msgstr "No ha sido posible obtener la regla l7."
+
+msgid "Unable to retrieve l7 rules."
+msgstr "No ha sido posible obtener las reglas l7."
+
+msgid "Unable to retrieve listener."
+msgstr "No ha sido posible obtener el oyente."
+
+msgid "Unable to retrieve listeners."
+msgstr "No ha sido posible obtener los oyentes."
+
+msgid "Unable to retrieve load balancer."
+msgstr "No ha sido posible obtener el balanceador de carga."
+
+msgid "Unable to retrieve load balancers."
+msgstr "No ha sido posible obtener los balanceadores de carga."
+
+msgid "Unable to retrieve member."
+msgstr "No ha sido posible obtener el miembro."
+
+msgid "Unable to retrieve members."
+msgstr "No ha sido posible obtener los miembros."
+
+msgid "Unable to retrieve pool."
+msgstr "No ha sido posible obtener el pool."
+
+msgid "Unable to retrieve pools."
+msgstr "No ha sido posible obtener los pools."
+
+msgid "Unable to retrieve secrets."
+msgstr "No ha sido posible obtener los secretos"
+
+msgid "Unable to update flavor profile."
+msgstr "No ha sido posible actualizar el perfil del sabor."
+
+msgid "Unable to update flavor."
+msgstr "No ha sido posible actualizar el sabor."
+
+msgid "Unable to update health monitor."
+msgstr "No ha sido posible actualizar el monitor de estado."
+
+msgid "Unable to update l7 policy."
+msgstr "No ha sido posible actualizar la política l7."
+
+msgid "Unable to update l7 rule."
+msgstr "No ha sido posible actualizar la regla l7."
+
+msgid "Unable to update listener."
+msgstr "No ha sido posible actualizar el oyente."
+
+msgid "Unable to update load balancer."
+msgstr "No ha sido posible actualizar el balanceador de carga."
+
+msgid "Unable to update member list."
+msgstr "No ha sido posible actualizar la lista de miembros."
+
+msgid "Unable to update member."
+msgstr "No ha sido posible actualizar el miembro."
+
+msgid "Unable to update pool."
+msgstr "No ha sido posible actualizar el pool."
+
+msgid "Update"
+msgstr "Actualizar"
+
+msgid "Update Health Monitor"
+msgstr "Actualizar monitor de estado"
+
+msgid "Update L7 Policy"
+msgstr "Actualizar política L7"
+
+msgid "Update L7 Rule"
+msgstr "Actualizar regla L7"
+
+msgid "Update Listener"
+msgstr "Actualizar oyente"
+
+msgid "Update Load Balancer"
+msgstr "Actualizar balanceador de carga"
+
+msgid "Update Member"
+msgstr "Actualizar miembros"
+
+msgid "Update Pool"
+msgstr "Actualizad pool"
+
+msgid "Updated At"
+msgstr "Actualizado en"
+
+msgid ""
+"Use the key-manager service to create any certificate containers before "
+"creating the listener.\n"
+"    The following documentation provides information on how to create a "
+"certificate container:"
+msgstr ""
+"Utilice el servicio de gestión de claves para crear cualquier contenedor de "
+"certificados antes de crear el oyente.\n"
+" La siguiente documentación proporcionar información sobre cómo crear el "
+"contenedor de certificado:"
+
+msgid "Value"
+msgstr "Valor"
+
+msgid "Value:"
+msgstr "Valor:"
+
+msgid "Weight"
+msgstr "Peso"
+
+msgid "Weight:"
+msgstr "Peso:"
+
+msgid ""
+"When true the logic of the rule is inverted. For example, with invert\n"
+"  true, equal to would become not equal to."
+msgstr ""
+"Cuando se cumpla, se invierte la lógica de la regla. Por ejemplo, si está "
+"activado\n"
+" igual se convierte en no igual."
+
+msgid "X-Forwarded-For"
+msgstr "X-Forwarded-For"
+
+msgid "X-Forwarded-Port"
+msgstr "X-Forwarded-Port"
+
+msgid "X-Forwarded-Proto"
+msgstr "X-Forwarded-Proto"
+
+msgid "Yes"
+msgstr "Sí"
+
+#, python-format
+msgid ""
+"You are about to disassociate the floating IP address from load balancer \"%s"
+"\". Please confirm."
+msgstr ""
+"Va a desasociar la IP flotante del balanceados \"%s\". Por favor, confírmelo."
+
+#, python-format
+msgid "You have selected \"%s\". Deleted L7 Policy is not recoverable."
+msgid_plural ""
+"You have selected \"%s\". Deleted L7 Policies are not recoverable."
+msgstr[0] ""
+"Ha seleccionado \"%s\". No se podrá recuperar la política L7 eliminada."
+msgstr[1] ""
+"Ha seleccionado \"%s\". No se podrán recuperar las políticas L7 eliminadas."
+
+#, python-format
+msgid "You have selected \"%s\". Deleted L7 Rule is not recoverable."
+msgid_plural "You have selected \"%s\". Deleted L7 Rules are not recoverable."
+msgstr[0] ""
+"Ha seleccionado \"%s\". No se podrá recuperar la regla L7 eliminada."
+msgstr[1] ""
+"Ha seleccionado \"%s\". No se podrán recuperar las reglas L7 eliminadas."
+
+#, python-format
+msgid "You have selected \"%s\". Deleted health monitor is not recoverable."
+msgid_plural ""
+"You have selected \"%s\". Deleted health monitors are not recoverable."
+msgstr[0] ""
+"Ha seleccionado \"%s\". No se podrá recuperar el monitor de estado eliminado."
+msgstr[1] ""
+"Ha seleccionado \"%s\". No se podrán recuperar los monitores de estado "
+"eliminados."
+
+#, python-format
+msgid "You have selected \"%s\". Deleted listener is not recoverable."
+msgid_plural "You have selected \"%s\". Deleted listeners are not recoverable."
+msgstr[0] "Ha seleccionado \"%s\". No se podrá recuperar el oyente eliminado"
+msgstr[1] ""
+"Ha seleccionado \"%s\". No se podrán recuperar los oyentes eliminados."
+
+#, python-format
+msgid ""
+"You have selected \"%s\". Deleted load balancer is not recoverable and this "
+"deletion will delete all of the sub-resources."
+msgid_plural ""
+"You have selected \"%s\". Deleted load balancers are not recoverable and "
+"this deletion will delete all of the sub-resources."
+msgstr[0] ""
+"Ha seleccionado \"%s\". No se podrá recuperar el balanceador de carga "
+"eliminado y se eliminarán todos los recursos asociados."
+msgstr[1] ""
+"Ha seleccionado \"%s\". No se podrán recuperar los balanceador de carga "
+"eliminados y se eliminarán todos los recursos asociados."
+
+#, python-format
+msgid "You have selected \"%s\". Deleted member is not recoverable."
+msgid_plural "You have selected \"%s\". Deleted members are not recoverable."
+msgstr[0] "Ha seleccionado \"%s\". No se podrá recuperar el miembro eliminado"
+msgstr[1] ""
+"Ha seleccionado \"%s\". No se podrán recuperar los miembros eliminados."
+
+#, python-format
+msgid "You have selected \"%s\". Deleted pool is not recoverable."
+msgid_plural "You have selected \"%s\". Deleted pools are not recoverable."
+msgstr[0] "Ha seleccionado \"%s\". No se podrá recuperar el pool eliminado"
+msgstr[1] ""
+"Ha seleccionado \"%s\". No se podrán recuperar los pools eliminados."
