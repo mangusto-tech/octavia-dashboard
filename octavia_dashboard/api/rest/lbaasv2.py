@@ -185,15 +185,18 @@ def create_listener(request, **kwargs):
 
     """
     data = request.DATA
+    sni_container_refs = None
 
     try:
         default_tls_ref = data['certificates'][0]
     except (KeyError, IndexError):
         default_tls_ref = None
 
+    # Add SNI support
+    if default_tls_ref and len(data['certificates']) > 1:
+        sni_container_refs = data['certificates']
+
     conn = get_sdk_connection(request)
-    # TODO(johnsom) Add SNI support
-    # https://bugs.launchpad.net/octavia/+bug/1714294
     listener = conn.load_balancer.create_listener(
         protocol=data['listener']['protocol'],
         protocol_port=data['listener']['protocol_port'],
@@ -202,7 +205,7 @@ def create_listener(request, **kwargs):
         description=data['listener'].get('description'),
         connection_limit=data['listener'].get('connection_limit'),
         default_tls_container_ref=default_tls_ref,
-        sni_container_refs=None,
+        sni_container_refs=sni_container_refs,
         admin_state_up=data['listener'].get('admin_state_up'),
         insert_headers=data['listener'].get('insert_headers'),
         timeout_client_data=data['listener'].get('timeout_client_data'),
@@ -462,6 +465,8 @@ def update_listener(request, **kwargs):
     listener_id = data['listener'].get('id')
     loadbalancer_id = data.get('loadbalancer_id')
     default_pool_id = data['listener'].get('default_pool_id')
+    sni_container_refs = None
+
     if not default_pool_id:
         default_pool_id = None
     else:
@@ -471,6 +476,10 @@ def update_listener(request, **kwargs):
         default_tls_ref = data['certificates'][0]
     except (KeyError, IndexError):
         default_tls_ref = None
+    
+    # Add SNI support
+    if default_tls_ref and len(data['certificates']) > 1:
+        sni_container_refs = data['certificates']
 
     conn = get_sdk_connection(request)
     listener = conn.load_balancer.update_listener(
@@ -479,7 +488,7 @@ def update_listener(request, **kwargs):
         description=data['listener'].get('description'),
         connection_limit=data['listener'].get('connection_limit'),
         default_tls_container_ref=default_tls_ref,
-        sni_container_refs=None,
+        sni_container_refs=sni_container_refs,
         admin_state_up=data['listener'].get('admin_state_up'),
         default_pool_id=default_pool_id,
         insert_headers=data['listener'].get('insert_headers'),
