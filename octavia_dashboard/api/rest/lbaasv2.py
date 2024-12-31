@@ -169,8 +169,8 @@ def create_listener(request, **kwargs):
         default_tls_ref = None
 
     # Add SNI support
-    if default_tls_ref and len(data['certificates']) > 1:
-        sni_container_refs = data['certificates']
+    #if default_tls_ref and len(data['certificates']) > 1:
+    sni_container_refs = data['certificates']
 
     conn = _get_sdk_connection(request)
     listener = conn.load_balancer.create_listener(
@@ -448,8 +448,8 @@ def update_listener(request, **kwargs):
         default_tls_ref = None
     
     # Add SNI support
-    if default_tls_ref and len(data['certificates']) > 1:
-        sni_container_refs = data['certificates']
+    #if default_tls_ref and len(data['certificates']) > 1:
+    sni_container_refs = data['certificates']
 
     conn = _get_sdk_connection(request)
     listener = conn.load_balancer.update_listener(
