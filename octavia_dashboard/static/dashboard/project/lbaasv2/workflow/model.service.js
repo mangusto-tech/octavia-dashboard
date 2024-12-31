@@ -927,7 +927,7 @@
         certificates.push({
           id: container.container_ref,
           name: secret.name || secret.secret_ref.split('/').reverse()[0],
-          expiration: secret.expiration_at
+          expiration: secret.expires_at
         });
         certHrefs.push(secret.secret_ref);
       });
@@ -938,7 +938,7 @@
         var cert = {
           id: key,
           name: secrets[key].name || key,
-          expiration: secrets[key].expiration_at
+          expiration: secrets[key].expires_at
         };
         if (certHrefs.indexOf(key) === -1) {
           certificates.push(cert);
