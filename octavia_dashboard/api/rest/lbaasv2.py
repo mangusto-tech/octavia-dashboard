@@ -185,15 +185,12 @@ def create_listener(request, **kwargs):
 
     """
     data = request.DATA
+    default_tls_ref = None
     sni_container_refs = None
 
-    try:
+    if ( 'certificates' in data ) and ( len(data['certificates']) >= 1 ):
         default_tls_ref = data['certificates'][0]
-    except (KeyError, IndexError):
-        default_tls_ref = None
-
-    # Add SNI support
-    if default_tls_ref and len(data['certificates']) > 1:
+        # Add SNI support
         sni_container_refs = data['certificates']
 
     conn = get_sdk_connection(request)
@@ -465,6 +462,7 @@ def update_listener(request, **kwargs):
     listener_id = data['listener'].get('id')
     loadbalancer_id = data.get('loadbalancer_id')
     default_pool_id = data['listener'].get('default_pool_id')
+    default_tls_ref = None
     sni_container_refs = None
 
     if not default_pool_id:
@@ -472,13 +470,9 @@ def update_listener(request, **kwargs):
     else:
         default_pool_id = default_pool_id[:36]
 
-    try:
+    if ( 'certificates' in data ) and ( len(data['certificates']) >= 1 ):
         default_tls_ref = data['certificates'][0]
-    except (KeyError, IndexError):
-        default_tls_ref = None
-    
-    # Add SNI support
-    if default_tls_ref and len(data['certificates']) > 1:
+        # Add SNI support
         sni_container_refs = data['certificates']
 
     conn = get_sdk_connection(request)
